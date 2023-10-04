@@ -1,0 +1,11 @@
+#include "stdio.h"
+
+int main() {
+    int v1;
+    int v2;
+    int s;
+    int t;
+    scanf("%d %d %d %d", &v1, &v2, &s, &t);
+    printf("%d", s+v1*t+v2*t);
+    return 0;
+}
